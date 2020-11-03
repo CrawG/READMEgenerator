@@ -30,7 +30,7 @@ const promptUser = () => {
     {
         type: "list",
         message: "What type of license should your project have?",
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+        choices: ['MIT', 'APACHE', 'GPL', 'BSD', 'None'],
         name: "license"
     },
     {
@@ -68,11 +68,9 @@ const promptUser = () => {
     ` 
 
     + "\r\n" +
-    `### License`
-    + "\n" +
-    `${response.license}  
-    ` 
-    
+    `![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-lightgrey.svg)  
+    `
+ 
     + "\r\n" +
     `## Table of Contents`
     + "\n" +
