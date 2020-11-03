@@ -7,7 +7,7 @@ Command line application to generate a good README file for your project
 Video: https://youtu.be/GsKpdgtWcoc  
     
 ## Table of Contents
-* [Intallation](#installation)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Questions](#questions)  
     

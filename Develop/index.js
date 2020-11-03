@@ -74,7 +74,7 @@ const promptUser = () => {
     + "\r\n" +
     `## Table of Contents`
     + "\n" +
-    `* [Intallation](#installation)`
+    `* [Installation](#installation)`
     + "\n" +
     `* [Usage](#usage)`
     + "\n" +
@@ -112,7 +112,7 @@ const promptUser = () => {
     + "\r\n" +
     `## Questions`
     + "\n" +
-    `### If you have any questions about the repo, open an issue or cantact me directly at ${response.email}. You can find more of my work at ${response.username}.`
+    `### If you have any questions about the repo, open an issue or contact me directly at ${response.email}. You can find more of my work at ${response.username}.`
   };
 
   promptUser()
